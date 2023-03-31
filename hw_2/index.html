@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>hw-02</title>
+</head>
+<style>
+   table,
+   th,
+   td {
+      border: 2px solid #fff;
+      border-collapse: collapse;
+   }
+
+   p {
+      margin: 0;
+      padding: 2px 0px;
+      opacity: 0.8;
+      font-size: 12px;
+      color: #fff;
+   }
+
+   span {
+      font-size: 16px;
+      color: #fff;
+   }
+
+   td {
+      text-align: center;
+      width: 75px;
+      height: 75px;
+      border-radius: 13px;
+   }
+
+   tr {
+      display: inline-block;
+   }
+   .bg-red{
+      background-color: #FF4343;
+   }
+   .bg-purple{
+      background-color:#9328FE;
+   }
+   .bg-orange{
+      background-color: #FF7043;
+   }
+   .bg-blue{
+      background-color: #2D68DA;
+   }
+   .bg-auq{
+      background-color: #6448FF;
+   }
+   .bg-orange-light{
+      background-color: #FF8A00;
+   }
+   .bg-berez{
+      background-color: #1B99C1;
+   }
+   .bg-green{
+      background-color: #14AE5C;
+   }
+   .low-width{
+      width: 1425px;
+   }
+   .low-width td{
+      height: 77px;
+      width: 74px;
+   }
+</style>
+
+<body>
+   <table>
+      <tbody>
+         <tr class="low-width">
+            <td style="background-color:#487BDE; float: left;">
+               <p>1</p>
+               <span>H</span>
+               <p>hydrogen</p>
+            </td>
+            <td style="float:right" class="bg-purple">
+               <p>2</p>
+               <span>He</span>
+               <p>Helium</p>
+            </td>
+         </tr>
+         <tr class="low-width">
+            <td style="float: left;" class="bg-red">
+               <p>3</p>
+               <span>Li</span>
+               <p>Lithium</p>
+            </td>
+            <td style="float: left;" class="bg-orange">
+               <p>4</p>
+               <span>Be</span>
+               <p>Beryllium</p>
+            </td>
+            <td style="float: right;" class="bg-purple">
+               <p>10</p>
+               <span>Ne</span>
+               <p>Neon</p>
+            </td>
+            <td style="float: right;" class="bg-auq">
+               <p>9</p>
+               <span>F</span>
+               <p>Fluorine</p>
+            </td>
+            <td style="float: right;" class="bg-blue">
+               <p>8</p>
+               <span>O</span>
+               <p>Oxygen</p>
+            </td>
+            <td style="float: right;" class="bg-blue">
+               <p>7</p>
+               <span>N</span>
+               <p>Nitrogen</p>
+            </td>
+            <td style="float: right;" class="bg-blue">
+               <p>6</p>
+               <span>C</span>
+               <p>Carbon</p>
+            </td>
+            <td style="background-color:#1B99C1;float: right;">
+               <p>5</p>
+               <span>B</span>
+               <p>Boron</p>
+            </td>
+         </tr>
+         <tr class="low-width">
+            <td style="float: left;" class="bg-red">
+               <p>11</p>
+               <span>Na</span>
+               <p>Sodium</p>
+            </td>
+            <td style="float: left;" class="bg-orange">
+               <p>12</p>
+               <span>Mg</span>
+               <p>Magnesium</p>
+            </td>
+            <td style="float: right;" class="bg-purple">
+               <p>18</p>
+               <span>Ar</span>
+               <p>Argon</p>
+            </td>
+            <td style="float: right;" class="bg-auq">
+               <p>17</p>
+               <span>Cl</span>
+               <p>Chlorine</p>
+            </td>
+            <td style="float: right;" class="bg-blue">
+               <p>16</p>
+               <span>S</span>
+               <p>Sulfur</p>
+            </td>
+            <td style="float: right;" class="bg-blue">
+               <p>15</p>
+               <span>P</span>
+               <p>Phosphorus</p>
+            </td>
+            <td style="float: right;" class="bg-berez">
+               <p>14</p>
+               <span>Si</span>
+               <p>Silicon</p>
+            </td>
+            <td style="float: right;" class="bg-green">
+               <p>13</p>
+               <span>Al</span>
+               <p>Aluminium</p>
+            </td>
+         </tr>
+         <tr>
+            <td class="bg-red">
+               <p>19</p>
+               <span>K</span>
+               <p>Potassium</p>
+            </td>
+            <td class="bg-orange">
+               <p>20</p>
+               <span>Ca</span>
+               <p>Calcium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>21</p>
+               <span>Sc</span>
+               <p>Scandium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>22</p>
+               <span>Ti</span>
+               <p>Titanium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>23</p>
+               <span>V</span>
+               <p>Vanadium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>24</p>
+               <span>Cr</span>
+               <p>Chromium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>25</p>
+               <span>Mn</span>
+               <p>Manganese</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>26</p>
+               <span>Fe</span>
+               <p>Iron</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>27</p>
+               <span>Co</span>
+               <p>Cobalt</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>28</p>
+               <span>Ni</span>
+               <p>Nickel</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>29</p>
+               <span>Cu</span>
+               <p>Copper</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>30</p>
+               <span>Zn</span>
+               <p>Zinc</p>
+            </td>
+            <td class="bg-green">
+               <p>31</p>
+               <span>Ga</span>
+               <p>Gallium</p>
+            </td>
+            <td class="bg-berez">
+               <p>32</p>
+               <span>Ge</span>
+               <p>Germanium</p>
+            </td>
+            <td class="bg-berez"> 
+               <p>33</p>
+               <span>As</span>
+               <p>Arsenic</p>
+            </td>
+            <td class="bg-blue">
+               <p>34</p>
+               <span>Se</span>
+               <p>Selenium</p>
+            </td>
+            <td class="bg-auq">
+               <p>35</p>
+               <span>Br</span>
+               <p>Bromine</p>
+            </td>
+            <td class="bg-purple">
+               <p>36</p>
+               <span>Kr</span>
+               <p>Krypton  </p>
+            </td>
+         </tr>
+         <tr>
+            <td class="bg-red">
+               <p>37</p>
+               <span>Rb</span>
+               <p>Rubidium</p>
+            </td>
+            <td class="bg-orange">
+               <p>38</p>
+               <span>Sr</span>
+               <p>Strontium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>39</p>
+               <span>Y</span>
+               <p>Yttrium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>40</p>
+               <span>Zr</span>
+               <p>Zirconium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>41</p>
+               <span>Nb</span>
+               <p>Niobium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>43</p>
+               <span>Mo</span>
+               <p>Molybdenum</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>43</p>
+               <span>Tc</span>
+               <p>Technetium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>44</p>
+               <span>Ru</span>
+               <p>Ruthenium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>45</p>
+               <span>Rh</span>
+               <p>Rhodium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>46</p>
+               <span>Pd</span>
+               <p>Palladium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>47</p>
+               <span>Ag</span>
+               <p>Silver</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>48</p>
+               <span>Cd</span>
+               <p>Cadmium</p>
+            </td>
+            <td class="bg-green">
+               <p>49</p>
+               <span>In</span>
+               <p>Indium</p>
+            </td>
+            <td class="bg-green">
+               <p>50</p>
+               <span>Sn</span>
+               <p>Tin</p>
+            </td>
+            <td class="bg-berez"> 
+               <p>51</p>
+               <span>Sb</span>
+               <p>Antimony</p>
+            </td>
+            <td class="bg-blue">
+               <p>52</p>
+               <span>Te</span>
+               <p>Tellurium</p>
+            </td>
+            <td class="bg-auq">
+               <p>53</p>
+               <span>I</span>
+               <p>Iodine</p>
+            </td>
+            <td class="bg-purple">
+               <p>54</p>
+               <span>Xe</span>
+               <p>Xenon</p>
+            </td>
+         </tr>
+         <tr>
+            <td class="bg-red">
+               <p>55</p>
+               <span>Cs</span>
+               <p>Caesium</p>
+            </td>
+            <td class="bg-orange">
+               <p>56</p>
+               <span>Ba</span>
+               <p>Barium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>57-71</p>
+               <p>Lanthanides</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>72</p>
+               <span>Hf</span>
+               <p>Hafnium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>73</p>
+               <span>Ta</span>
+               <p>Tantalum</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>74</p>
+               <span>W</span>
+               <p>Tungsten</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>75</p>
+               <span>Re</span>
+               <p>Rhenium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>76</p>
+               <span>Os</span>
+               <p>Osmium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>77</p>
+               <span>Ir</span>
+               <p>Iridium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>78</p>
+               <span>Pt</span>
+               <p>Platinum</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>79</p>
+               <span>Au</span>
+               <p>Gold</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>80</p>
+               <span>Hg</span>
+               <p>Mercury</p>
+            </td>
+            <td class="bg-green">
+               <p>81</p>
+               <span>Tl</span>
+               <p>Thallium</p>
+            </td>
+            <td class="bg-green">
+               <p>82</p>
+               <span>Pb</span>
+               <p>Lead</p>
+            </td>
+            <td class="bg-green"> 
+               <p>83</p>
+               <span>Bi</span>
+               <p>Bismuth</p>
+            </td>
+            <td class="bg-blue">
+               <p>84</p>
+               <span>Po</span>
+               <p>Polonium</p>
+            </td>
+            <td class="bg-auq">
+               <p>85</p>
+               <span>At</span>
+               <p>Astatine</p>
+            </td>
+            <td class="bg-purple">
+               <p>86</p>
+               <span>Rn</span>
+               <p>Radon</p>
+            </td>
+         </tr>
+         <tr>
+            <td class="bg-red">
+               <p>87</p>
+               <span>Fr</span>
+               <p>Francium</p>
+            </td>
+            <td class="bg-orange">
+               <p>88</p>
+               <span>Ra</span>
+               <p>Radium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>89-103</p>
+               <p>Actinides</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>104</p>
+               <span>Rf</span>
+               <p>Rutherfordium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>105</p>
+               <span>Db</span>
+               <p>Dubnium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>106</p>
+               <span>Sg</span>
+               <p>Seaborgium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>107</p>
+               <span>Bh</span>
+               <p>Bohrium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>108</p>
+               <span>Hs</span>
+               <p>Hassium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>109</p>
+               <span>Mt</span>
+               <p>Meitnerium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>110</p>
+               <span>Ds</span>
+               <p>Darmstadtium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>111</p>
+               <span>Rg</span>
+               <p>Roentgenium</p>
+            </td>
+            <td class="bg-orange-light">
+               <p>112</p>
+               <span>Cn</span>
+               <p>Copernicium</p>
+            </td>
+            <td class="bg-green">
+               <p>113</p>
+               <span>Nh</span>
+               <p>Nihonium</p>
+            </td>
+            <td class="bg-green">
+               <p>114</p>
+               <span>Fl</span>
+               <p>Flerovium</p>
+            </td>
+            <td class="bg-green"> 
+               <p>115</p>
+               <span>Mc</span>
+               <p>Moscovium</p>
+            </td>
+            <td class="bg-green">
+               <p>116</p>
+               <span>Lv</span>
+               <p>Livermorium</p>
+            </td>
+            <td class="bg-auq">
+               <p>117</p>
+               <span>Ts</span>
+               <p>Tennessine</p>
+            </td>
+            <td class="bg-purple">
+               <p>118</p>
+               <span>Og</span>
+               <p>Oganesson</p>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+</body>
+
+</html>

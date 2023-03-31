@@ -1,0 +1,44 @@
+.my_works_block {
+  width: 1234px;
+  margin: 0 54px;
+}
+.my_works_block_usless > h2 {
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.my_works_block_usless {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.my_works_block_list {
+  display: flex;
+}
+.my_works_block_list li {
+  padding-right: 44px;
+}
+.my_works_block_list li > a {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 5px 20px;
+}
+.my_works_block_list a:hover {
+  background: #ffb742;
+  color: #212529;
+  border-radius: 3px;
+}
+.my_works_block_image{
+   display: flex;
+}
+.my_works_block_col_1 > img{
+   padding-bottom: 32px;
+}
+.my_works_section__container{
+   margin-bottom: 103px;
+}

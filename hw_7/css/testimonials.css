@@ -1,0 +1,66 @@
+.btn_grey_big {
+  width: 192px;
+  height: 42px;
+  padding: 6px 25px;
+  margin-bottom: 8px;
+}
+.testimonials_block_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.testimonials_block_title > h2 {
+  font-size: 39.2896px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.testimonials_block {
+  margin: 0 63px 250px 63px;
+}
+.testimonials_block_card_info {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 378px;
+  padding: 51px 22px 49px 33px;
+}
+.testimonials_block_cards {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonials_block_card_list {
+  display: flex;
+}
+.testimonials_block_card_list li {
+  padding-right: 8px;
+  margin-bottom: 21px;
+}
+.testimonials_block_card_text {
+  font-size: 20px;
+  width: 294px;
+  line-height: 34px;
+  color: #000000;
+  margin-bottom: 36px;
+}
+.testimonials_block_card_user {
+  display: flex;
+  width: 236px;
+}
+.testimonials_block_card_user img {
+  padding-right: 24px;
+}
+.testimonials_block_card_user h2 {
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+}
+.card_user_profesion {
+  font-weight: 400;
+  border-bottom: 0px;
+  font-size: 16px;
+  line-height: 34px;
+  color: #000000;
+}

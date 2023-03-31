@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+html,
+body {
+  height: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+}
+p,
+h3{
+  margin: 0;
+}
+ul{
+  padding-left: 20px;
+}
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px repeat(2, 200px);
+  grid-template-rows: repeat(20, 20px);
+  background-color: #ffb084;
+  column-gap: 20px;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 48px 42px;
+}
+.bg-blocks {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 15px 25px;
+}
+.bg_color{
+  box-shadow: 7px 7px 0px #000000;
+
+}
+.block_card {
+  grid-row: 1/17;
+  grid-column: 1/2;
+  text-align: center;
+
+}
+.block_card h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+}
+.block_card img {
+  margin: 17px 0;
+}
+.block_card p {
+  font-weight: 600;
+  margin-bottom: 14px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.fs-12 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.block_text p {
+  margin: 0 5px 10px;
+}
+.block_text {
+  display: inline-flex;
+}
+.block_bio {
+  grid-column: 2/4;
+  grid-row: 1/7;
+  margin-bottom: 20px;
+
+}
+.block_bio span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.block_bio p {
+  font-size: 14px;
+  line-height: 16px;
+}
+.goals {
+  grid-column: 2/2;
+  grid-row: 7/12;
+  box-shadow: 7px 7px 0px #29a71e;
+}
+.goals h3 {
+  color: #29a71e;
+}
+.frustrations {
+  grid-column: 3/3;
+  grid-row: 7/16;
+  box-shadow: 7px 7px 0px #e13535;
+}
+.dream {
+  grid-column: 2/2;
+  grid-row: 13/21;
+  box-shadow: 7px 7px 0px #3675b0;
+}
+.items {
+  font-size: 14px;
+}
+.title {
+  font-weight: 700;
+  font-size: 14px;
+}
+.frustrations h3 {
+  color: #e13535;
+}
+.dream h3 {
+  color: #3675b0;
+}
+.i_want {
+  grid-column: 1/2;
+  grid-row: 18/21;
+
+}
+.i_want p {
+  font-weight: 700;
+  font-size: 14px;
+}
+.personality {
+  grid-column: 3/4;
+  grid-row: 17/21;
+
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>hw-8</title>
+</head>
+
+<body>
+   <main>
+      <div class="wrapper">
+         <div class="registration_block container">
+            <a class="questions" href="./login/index.html">Allready a member?<img src="./img/man_01.svg" alt="man"></a>
+            <div class="title_block">
+               <div class="title_block_title">Input your information</div>
+               <div class="title_block_info">
+                  We need you to help us with some basic information for your account creation. Here are our
+                  <span>terms and conditins.</span>Please read them carefully. We are GDRP compliiant
+               </div>
+            </div>
+            <div class="dashed"></div>
+            <form action="#" method="post">
+               <div class="form_block-row">
+                  <div class="form_block">
+                     <p>
+                        <label for="name-f"></label>
+                        First name
+                        <img src="./img/question_02.svg" title="Enter the name">
+                     </p>
+                     <input type="text" placeholder="John" name="name-f" required>
+                  </div>
+                  <div class="form_block">
+                     <p>
+                        Last name
+                        <label for="name-s" ></label>
+                        <img src="./img/question_02.svg" title="Enter the name">
+                     </p>
+                     <input type="text" placeholder="Smit" name="name-s" required>
+                  </div>
+               </div>
+               <div class="form_block-row">
+                  <div class="form_block">
+                     <p>
+                        Company
+                        <label for="name_company"></label>
+                        <img src="./img/question_02.svg" title="Enter the company">
+                     </p>
+                     <input type="text" placeholder="John Smith" name="name_company" required>
+                  </div>
+                  <div class="form_block">
+                     <p>
+                        Work email
+                        <label for="email"></label>
+                        <img src="./img/question_02.svg" title="Enter the email">
+                     </p>
+                     <input type="text" placeholder="John Smith" name="email" required>
+                  </div>
+               </div>
+               <div class="form_block-row">
+                  <div class="form_block">
+                     <div class="form_block_numbers">
+                        <p class="numbers">
+                           Number of employees
+                           <label for="numbers"></label>
+                        </p>
+                        <img src="./img/question_02.svg" title="Set number">
+                     </div>
+                     <div class="block_numbers">
+                        <input type="text" placeholder="0<20" name="numbers" required>
+                        <input type="text" placeholder="20<50" name="numbers" required>
+                        <input type="text" placeholder="50<100" name="numbers" required>
+                        <input type="text" placeholder="100<..." name="numbers" required>
+                     </div>
+                  </div>
+                  <div class="form_block">
+                     <div class="form_block_numbers">
+                        <p class="numbers">
+                           Phone number
+                           <label for="phone-number"></label>
+                        </p>
+                        <img src="./img/question_02.svg" title="Enter the phone number">
+                     </div>
+                     <input type="tel" placeholder="+380 00 000 000" name="phone-number" required/>
+                  </div>
+               </div>
+               <div class="dashed"></div>
+               <div class="form_block-row">
+                  <div class="form_block">
+                     <p>
+                        Password
+                        <label for="password"></label>
+                        <img src="./img/question_02.svg" title="Enter the name">
+                     </p>
+                     <input type="password" name="password" required>
+                  </div>
+                  <div class="form_block">
+                     <p>
+                        Confirm password
+                        <label for="confirm-password"></label>
+                        <img src="./img/question_02.svg" title="Enter the name">
+                     </p>
+                     <input type="password" name="confirm-password" required/>
+                  </div>
+               </div>
+               <div class="dashed"></div>
+               <div class="form_block_checked">
+                  <input type="checkbox">
+                  <p>I agree with <span>terms and conditins.</span></p>
+                  <button type="submit" src="./login/index.html" class="registerbtn">Register</button>
+               </div>
+            </form>
+         </div>
+         <div class="background_block">
+            <img src="./img/back_3.png" alt="background">
+         </div>
+      </div>
+
+   </main>
+</body>
+
+</html>

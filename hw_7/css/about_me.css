@@ -1,0 +1,108 @@
+.about_me_block {
+  display: flex;
+  flex-direction: column;
+  width: 672px;
+  padding-left: 77px;
+}
+.about_me_section__container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 18px;
+}
+.about_me_section__container > img {
+  width: 575px;
+}
+.btn_grey {
+  font-family: "Work Sans", sans-serif;
+  width: 148px;
+  height: 42px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffb742;
+  padding: 5px 0px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50px;
+}
+.about_me_block > h2 {
+  font-size: 48px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-bottom: 28px;
+}
+.about_me_block_text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #d5d5d5;
+  text-transform: none;
+  padding-bottom: 54px;
+}
+.btn_yellow {
+  width: 147px;
+  height: 54px;
+  background: #ffb742;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #212529;
+  padding: 12px 0;
+}
+.about_me_block > a {
+  margin-bottom: 10px;
+}
+.my_skills_block_info > h2 {
+  font-size: 48px;
+  width: 523px;
+  line-height: 56px;
+  color: #ffffff;
+  padding-bottom: 29px;
+}
+.my_skills_block_text {
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: none;
+  color: #ffffff;
+}
+.my_skills_block_info {
+  display: flex;
+  flex-direction: column;
+  padding-right: 97px;
+}
+.my_skills_block__container {
+  display: flex;
+  margin-bottom: 136px;
+}
+.my_skills_block_text {
+  width: 672px;
+  padding-bottom: 63px;
+}
+.my_skills_block_icon {
+  display: flex;
+  align-items: flex-start;
+  width: 560px;
+}
+.my_skills_block_icon_skills {
+  display: flex;
+  margin-right: 8px;
+  flex-wrap: wrap;
+}
+.my_skills_block_icon_skills li {
+  width: 80px;
+  height: 80px;
+  background: #383e45;
+  border-radius: 10px;
+  margin: 4px 6px;
+}
+.my_skills_block_icon_skills li > img {
+  width: 48px;
+  height: 48px;
+  margin: 16px;
+}
+.my_skills_block_icon_skills li:hover {
+  background: rgba(255, 183, 66, 0.5);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

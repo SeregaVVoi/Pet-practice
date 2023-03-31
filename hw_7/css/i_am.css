@@ -1,0 +1,79 @@
+.i_am_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 136px;
+}
+.i_am_block > h2 {
+  font-size: 32px;
+  line-height: 51px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+h2 > span {
+  font-size: 32px;
+  line-height: 51px;
+  border-bottom: 2px solid #ffb742;
+
+  color: #ffb742;
+}
+h1 {
+  font-size: 48px;
+  line-height: 91px;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+.i_am_block > p {
+  font-size: 24px;
+  padding-bottom: 22px;
+  line-height: 51px;
+  color: #ffffff;
+}
+.i_am_buttons {
+  width: 416px;
+  background: rgba(56, 62, 69, 0.44);
+  border-radius: 10px;
+}
+.i_am_buttons_text > span {
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffb742;
+}
+.i_am_buttons_text > p {
+  font-size: 16px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.i_am_block_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.i_am_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.i_am_buttons_text {
+  display: flex;
+  padding: 25px 0;
+  width: 159px;
+  flex-direction: column;
+  align-items: center;
+}
+.i_am_buttons img {
+  padding: 0 33px;
+}
+.i_am_buttons:hover {
+  transition: 0.6s;
+  background: linear-gradient(
+    94.3deg,
+    #ffb742 0%,
+    rgba(255, 123, 66, 0.76) 99.33%
+  );
+}
+.i_am_buttons:hover .i_am_buttons_text span {
+  color: #212529;
+}
+.i_am_section__container {
+  margin-bottom: 221px;
+}

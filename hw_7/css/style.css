@@ -1,0 +1,95 @@
+/* Онуленя */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Work+Sans:wght@600;&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  font-weight: inherit;
+  font-size: inherit;
+}
+p,
+span{
+  cursor: pointer;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  line-height: 1;
+  background: #212529;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Work Sans", sans-serif; */
+  cursor: url(../cursor.png),  default;
+}
+[class*="__container"] {
+  max-width: 1342px;
+  margin: 0 auto;
+}
+.btn {
+  background: #ffb742;
+  border-radius: 50px;
+}
+.fw_700 {
+  font-weight: 700;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu_navigation {
+  display: flex;
+  padding-right: 25px;
+}
+.header__menu_navigation a{
+   padding-right: 25px;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+   color: #ffffff;
+}
+.header__container>a{
+   font-size: 18px;
+   line-height: 30px;
+   padding: 12px 26px;
+   color: #212529;
+}
+.header__section{
+   margin: 17px 0 108px;
+}
+.header__menu_navigation a:hover{
+  color: #FFB742;
+  transition: 0.6s;
+}

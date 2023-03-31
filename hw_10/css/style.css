@@ -1,0 +1,110 @@
+:root {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+body {
+  max-width: 2048px;
+  font-family: "Irish Grover", cursive;
+  font-weight: 400;
+  font-size: 6.4rem;
+  margin: 0;
+  background: url("../img/background.svg");
+  background-size: cover;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+}
+.main_content > img {
+  margin: 0 auto;
+  width: 750px;
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+}
+.block_btn {
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.btn {
+  padding: 0 139px 22px 139px;
+  background: #c4c4c4;
+}
+.block_cards > a img {
+  width: 450px;
+  height: 370px;
+}
+.block_cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+/* actors */
+.video_content {
+  display: flex;
+  flex-direction: column;
+}
+.video_content video {
+  width: 400px;
+  height: 350px;
+}
+.block_cards_videos img {
+  width: 200px;
+  height: 150px;
+}
+.main_video_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.block_cards_videos .btn {
+  padding: 0 15px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.block_cards_videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* seasons */
+.main_block_seasons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.main_block_seasons img {
+  width: 700px;
+}
+.block_seasons {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.block_seasons a {
+  width: 350px;
+  background: #c4c4c4;
+  color: #000;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.block_seasons .btn {
+  width: 60px;
+  padding: 0 15px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.block_video_seasons{
+  display: flex;
+  justify-content: space-around;
+}

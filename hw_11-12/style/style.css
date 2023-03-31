@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,400;0,700;1,600;1,700&display=swap");
+:root {
+  --black: solid #000000;
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+body {
+  font-family: "Rosario", sans-serif;
+  margin: 0 auto;
+  font-style: italic;
+  font-weight: 700;
+}
+header {
+  height: 129px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+.nav_menu {
+  display: flex;
+}
+.nav_menu_item {
+  display: flex;
+  justify-content: space-between;
+  width: 1014px;
+  margin: 0 27px;
+}
+.nav_menu_item li > a {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 44px;
+  color: #fffcfc;
+}
+section {
+  height: 100vh;
+}
+.foto_content {
+  display: flex;
+  align-items: center;
+  width: 1831px;
+  margin: 0 auto;
+}
+.foto_item_1 {
+  margin-left: 43px;
+}
+.foto_item_2 {
+  margin-right: 43px;
+}
+.foto_item_midl_1 {
+  width: 465px;
+  margin: 67.5px 9px 67.5px 72px;
+}
+.foto_item_midl_2 {
+  width: 465px;
+  margin: 67.5px 72px 67.5px 9px;
+}
+.foto_item_midl > img {
+  padding-bottom: 42px;
+}
+/* Service block */
+.service_content {
+  display: flex;
+}
+.sevice_card h2 {
+  font-size: 4.8rem;
+  line-height: 58px;
+  text-align: center;
+}
+.service_cards {
+  display: flex;
+  width: 820px;
+  flex: 50%;
+  flex-wrap: wrap;
+  margin: 26px 86px 39px 69px;
+  justify-content: space-between;
+}
+/* Team_block */
+.team {
+  margin: 50px 0 32px 0;
+}
+.team_block {
+  display: flex;
+  flex-direction: column;
+  width: 1776px;
+  margin: 0 auto;
+}
+.team_block h2 {
+  font-size: 9.6rem;
+  line-height: 116px;
+  text-align: center;
+  color: #000000;
+}
+.team_block_cards {
+  display: flex;
+  justify-content: space-between;
+}
+.team_block_cards:hover {
+  filter: grayscale(80%);
+}
+.team_block_cards:hover > .team_card:not(:hover) {
+  filter: brightness(60%);
+}
+.image_bg {
+  border-radius: 40px;
+  width: 400px;
+  height: 677px;
+}
+.name_barber {
+  display: none;
+  position: absolute;
+  border-radius: 0 0 40px 40px;
+  bottom: -6.7%;
+  background: rgba(163, 83, 10, 0.7);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 62px;
+  text-align: center;
+  color: #fffafa;
+  width: 400px;
+  height: 154px;
+}
+.image_bg:hover {
+  position: relative;
+}
+.team_card:hover .name_barber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* block_contacts  */
+textarea {
+  resize: none;
+  width: 879px;
+  font-size: 3.6rem;
+  line-height: 44px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #e5e5e5;
+}
+.block_form {
+  display: flex;
+  width: 936px;
+  padding: 35px 0px 35px 28px;
+  background-color: #e5e5e5;
+}
+input {
+  outline: none;
+}
+.block_form_type {
+  display: flex;
+  width: 884px;
+  justify-content: space-between;
+  margin-bottom: 43px;
+}
+.block_form_type input {
+  width: 389px;
+  padding: 25px 0px 25px 10px;
+  background: #ffffff;
+  font-size: 3.6rem;
+  line-height: 44px;
+  align-items: center;
+  border: 0px solid #e5e5e5;
+  color: rgba(0, 0, 0, 0.5);
+}
+.block_contacts_text h2 {
+  width: 798px;
+  font-size: 6.4rem;
+  line-height: 78px;
+  text-align: center;
+}
+.block_contacts {
+  display: flex;
+  padding: 0 162px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 73px;
+}
+/* footer */
+.block_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 162px;
+}
+.block_footer_contact {
+  display: flex;
+  width: 506px;
+  flex-direction: column;
+  text-align: center;
+}
+.block_footer_contact span {
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 36px;
+}
+.block_footer_contact a {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000;
+}
+.block_footer_work-open {
+  display: flex;
+  width: 485px;
+  flex-direction: column;
+  align-items: center;
+}
+.block_footer_work-open time {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 36px;
+}
+.block_footer_work-open span {
+  padding-bottom: 20px;
+  font-style: normal;
+  font-size: 3.6rem;
+  line-height: 44px;
+}
+.block_footer_social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+}
+.block_footer_social span {
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+}
+.social li {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+}
+.social {
+  text-align: center;
+}
+.socil_icon {
+  padding-right: 8px;
+}
+.social_twwiter {
+  padding-right: 30px;
+}
+/*  animation */
+
+@keyframes slide-left {
+  from {
+    transform: translateX(-200%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.left_1 {
+  animation: slide-left 1500ms;
+}
+.left_2 {
+  animation: slide-left 3000ms;
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(+200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.right_1 {
+  animation: slide-right 2000ms;
+}
+.right_2 {
+  animation: slide-right 3500ms;
+}
+@keyframes around {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 600px;
+    top: 0;
+  }
+  50% {
+    left: 600px;
+    top: 500px;
+  }
+  75% {
+    left: 0;
+    top: 500px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+.radar1 {
+  position: relative;
+  animation: around 4s linear infinite;
+}
+@keyframes around1 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0px;
+    top: 500px;
+  }
+  50% {
+    left: -600px;
+    top: 500px;
+  }
+  75% {
+    left: -600px;
+    top: 0;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+.radar2 {
+  position: relative;
+  animation: around1 4s linear infinite;
+  animation-delay: 3s;
+}
+@keyframes around4 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: -600px;
+    top: 0;
+  }
+  50% {
+    left: -600px;
+    top: -500px;
+  }
+  75% {
+    left: 0;
+    top: -500px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+.radar4{
+  position: relative;
+  animation: around4 4s linear infinite;
+  animation-delay: 5s;
+}
+@keyframes around3 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0px;
+    top: -500px;
+  }
+  50% {
+    left: 600px;
+    top: -500px;
+  }
+  75% {
+    left: 600px;
+    top: 0px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+.radar3{
+  position: relative;
+  animation: around3 4s linear infinite;
+  animation-delay: 8s;
+}

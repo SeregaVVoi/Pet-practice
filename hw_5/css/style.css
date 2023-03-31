@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  background: #f5f5f5;
+  margin: 0 auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Roboto:wght@300;400&display=swap");
+.cards_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main{
+  background-color: #FFFFFF;
+}
+.container {
+  margin: 0 auto;
+  width: 455px;
+}
+.cadrs_block_content{
+  position: relative;
+  padding-bottom: 12px;
+}
+img {
+  position: relative;
+  width: 144px;
+  height: 164px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 29.8681px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #020953;
+}
+span {
+  font-weight: 400;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #060a3f;
+}
+header {
+  padding-bottom: 7px;
+}
+.cards_block_text{
+  top: 55%;
+  left: 0%;
+  width: 144px;
+  position: absolute;
+}
+h2, p{
+  text-align: center;
+  visibility: hidden;
+  font-weight: 300;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #ffc800;
+}
+p{
+   color: #FFFFFF;
+}
+.cadrs_block_content:hover h2,
+.cadrs_block_content:hover p {
+   visibility: visible;
+}
+.cards_block_text:hover{
+  background: linear-gradient(180deg, rgba(6, 10, 64, 0) 17.69%, rgba(6, 10, 64, 0.75) 84.92%);
+}
+.col-1{
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 1s;
+}
+body:hover .col-1{
+  top: 17.5vh;
+  z-index: 1;
+}
+.col-2{
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 1s;
+}
+body:hover .col-2{
+  top: -17.5vh;
+  z-index: 2;
+}

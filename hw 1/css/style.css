@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+[class*="__container"] {
+  max-width: 935px;
+  margin: 0 auto;
+}
+
+.fw-400 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+div {
+  padding-bottom: 15px;
+}
+p {
+  padding-bottom: 10px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  padding-bottom: 10px;
+}
+.fw-700 {
+  font-weight: 700;
+}
+h2 {
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}

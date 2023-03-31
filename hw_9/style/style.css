@@ -1,0 +1,156 @@
+:root {
+  --oswald: "Oswald", sans-serif;
+  font-size: 10px;
+}
+body {
+  font-family: var(--oswald);
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin: 0;
+  padding: 0;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+button {
+  padding: 0;
+  margin: 0;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0;
+}
+.header-top__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-top nav {
+  width: 40%;
+}
+.header-top__nav-item a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333333;
+}
+.header-top__search input {
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  background-image: url("../image/search.svg");
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  width: 270px;
+  padding-left: 4rem;
+  font-size: 1.5rem;
+  border: 1px solid #a04955;
+  border-radius: 54px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner__content {
+  padding-top: 226px;
+}
+.banner__content-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #001f3d;
+}
+.banner__content-subtitle {
+  font-weight: 300;
+  color: black;
+}
+.conteiner {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.block_collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  font-weight: 500;
+  background-color: #f1f1f1;
+  color: #333333;
+}
+.block_collections_title > h2 {
+  font-size: 3.6rem;
+}
+.block_collections_title > p {
+  font-size: 6.4rem;
+}
+.block_collections_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.collections_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 280px;
+  padding: 31px 0;
+  margin: 0 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.collections_card img {
+  margin-bottom: 5px;
+}
+.collections_card > h3 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.list_star {
+  display: flex;
+  margin-bottom: 5px;
+}
+.list_star li {
+  padding: 0 3.5px;
+}
+.collections_card > p {
+  font-weight: 200;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+.collections_card p > span {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.buy_btn {
+  width: 130px;
+  display: flex;
+  height: 35px;
+  padding: 4px 8px;
+  background-color: #a04955;
+  border: 0;
+}
+.buy_btn > img {
+  margin: 6px 4px 7px 0;
+  width: 21px;
+  height: 21px;
+}
+.buy_btn > p {
+  font-family: var(--oswald);
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+.block_collections_cards{
+    display: flex;
+}
