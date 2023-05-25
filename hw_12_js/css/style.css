@@ -1,0 +1,431 @@
+:root {
+  --oswald: "Oswald", sans-serif;
+  font-size: 10px;
+}
+body {
+  font-family: var(--oswald);
+  font-weight: 400;
+  font-size: 2.4rem;
+  padding: 0;
+}
+img {
+  border-style: none;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+button {
+  padding: 0;
+  margin: 0;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.title {
+  font-size: 64px;
+  line-height: 96px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0;
+}
+.header-top__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-top nav {
+  width: 40%;
+}
+.header-top__nav-item a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333333;
+}
+.header-top__search input {
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  background-image: url("../image/search.svg");
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  width: 270px;
+  padding-left: 4rem;
+  font-size: 1.5rem;
+  border: 1px solid #a04955;
+  border-radius: 54px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner__content {
+  padding-top: 226px;
+}
+.banner__content-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #001f3d;
+}
+.banner__content-subtitle {
+  font-weight: 300;
+  color: black;
+}
+.conteiner {
+  width: 1440px;
+  margin: 0 auto;
+}
+.block_collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  font-weight: 500;
+  background-color: #f1f1f1;
+  color: #333333;
+}
+.block_collections_title > h2 {
+  font-size: 3.6rem;
+}
+.block_collections_title > p {
+  font-size: 6.4rem;
+}
+.block_collections_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.collections_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 280px;
+  padding: 31px 0;
+  margin: 0 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.collections_card img {
+  margin-bottom: 5px;
+}
+.collections_card > h3 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.list_star {
+  display: flex;
+  margin-bottom: 5px;
+}
+.list_star li {
+  padding: 0 3.5px;
+}
+.collections_card > p {
+  font-weight: 200;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+.collections_card p > span {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.buy_btn {
+  width: 130px;
+  display: flex;
+  height: 35px;
+  padding: 4px 8px;
+  background-color: #a04955;
+  border: 0;
+}
+.buy_btn > img {
+  margin: 6px 4px 7px 0;
+  width: 21px;
+  height: 21px;
+}
+.buy_btn > p {
+  font-family: var(--oswald);
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+.block_collections_cards {
+  display: flex;
+}
+.block_bestselling_title {
+  color: #001f3d;
+  width: 578px;
+  margin-bottom: 10px;
+}
+.block_bestselling_btn {
+  width: 240px;
+  padding: 9px 8px 12px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-weight: 300;
+}
+.block_bestselling {
+  display: flex;
+  width: 1320px;
+  margin: 0px 280px;
+  padding: 90px 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+.block_bestselling_text {
+  width: 550px;
+  margin-bottom: 30px;
+}
+.block_bestselling_left {
+  margin-right: 60px;
+}
+.block_print-shirt {
+  padding: 108px 152px;
+  background: #e5e5e5;
+  margin-bottom: 108px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.block_print-shirt_cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto;
+}
+.block_print-shirt_card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+}
+.block_print-shirt_card img {
+  margin-bottom: 35px;
+}
+.block_print-shirt_color {
+  position: absolute;
+  width: 550px;
+  background: #a04955;
+  opacity: 0.8;
+  padding: 20px 0px;
+  bottom: 260px;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+}
+.block_print-shirt_text {
+  font-weight: 300;
+  text-align: center;
+  width: 404px;
+  margin-bottom: 25px;
+}
+.block_print-shirt_btn {
+  border: 1px solid #000000;
+  width: 366px;
+  text-align: center;
+  padding: 9px 0px;
+}
+.block_sportif {
+  display: flex;
+  background-image: url("../image/block_sportif/01.png");
+  width: 1440px;
+  margin-bottom: 74px;
+  background-repeat: no-repeat;
+}
+.block_sportif_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 152px;
+  padding: 24px 0px 56px 0px;
+  width: 578px;
+}
+.block_sportif_title {
+  color: #ffffff;
+  width: 512px;
+  margin-bottom: 18px;
+}
+.block_sportif_text {
+  width: 428px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.block_sportif_btn {
+  width: 405px;
+  text-align: center;
+  padding: 8px 0px;
+  font-weight: 300;
+  line-height: 33px;
+  background: #a04955;
+  color: #ffffff;
+}
+.block_50years_trend_title {
+  width: 778px;
+  padding: 30px 0px;
+  margin: 0px 250px 30px 250px;
+  color: #ffffff;
+}
+.block_50years_trend {
+  width: 1320px;
+  margin-bottom: 414px;
+  height: 340px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #a04955;
+}
+.block_50years_trend_card_title {
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.block_50years_trend_cards {
+  display: flex;
+  padding: 0px 90px;
+  justify-content: space-between;
+}
+.block_50years_trend_card_btn {
+  background: #a04955;
+  width: 242px;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 0px;
+  color: #ffffff;
+  margin-bottom: 38px;
+}
+.block_50years_trend_card {
+  width: 314px;
+  border: 1px solid #a04955;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block_50years_trend_card > img {
+  width: 185px;
+  height: 214px;
+}
+.block_50years_legacy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1214px;
+  padding: 130px 0px 30px;
+  position: relative;
+  background: #f3f3f3;
+}
+.block_50years_legacy > img {
+  position: absolute;
+  top: -150px;
+  height: 270px;
+  width: 276px;
+}
+.block_50years {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 46px;
+}
+.block_50years_legacy_title {
+  color: #001f3d;
+  margin-bottom: 20px;
+}
+.block_50years_legacy_text {
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 35px;
+}
+.block_50years_legacy_btn {
+  background: #f3f3f3;
+  width: 261px;
+  border: 1px solid #000000;
+  font-weight: 300;
+  padding: 10px 0px;
+  text-align: center;
+}
+.block_50years_legacy_arrow {
+  position: relative;
+}
+.block_50years_legacy_arrow > img {
+  position: absolute;
+  bottom: -50px;
+  left: 580px;
+}
+/* Footer */
+.footer {
+  position: relative;
+  /* padding: 50px 60px; */
+  margin-bottom: 45px;
+}
+.footer_block_content {
+  background-color: #a04955;
+  display: flex;
+  padding: 50px 60px;
+  justify-content: space-between;
+}
+.footer_list_items {
+  color: #ffffff;
+}
+.footer_list_items > li:nth-child(1) {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+.footer_list_items li {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.footer_block_mail {
+  display: flex;
+  flex-direction: column;
+}
+.mg-50 {
+  margin-bottom: 50px;
+}
+.footer_block_mail > span {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.block_mail {
+  display: flex;
+  justify-content: space-between;
+  width: 515px;
+  align-items: center;
+  padding: 10px 9px;
+  background: #f3f3f3;
+}
+.block_mail > span {
+  color: #a04955;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.block_mail_btn {
+  width: 167px;
+  background-color: #a04955;
+  padding: 5px 0px;
+  text-align: center;
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.footer > span {
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding-left: 60px;
+  color: rgba(0, 0, 0, 0.5);
+}

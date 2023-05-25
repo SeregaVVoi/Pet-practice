@@ -1,0 +1,25 @@
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+div {
+   width: 280px;
+   border: 2px solid rgb(64, 64, 255);
+   border-radius: 20px;
+   text-align: center;
+   margin: 10px;
+}
+img{
+   width: 280px;
+   height: 280px;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-bottom: 10px;
+}
+p{
+   cursor: pointer;
+   background-color: cadetblue;
+   text-align: center;
+}
